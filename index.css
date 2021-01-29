@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(255, 177, 189);
+}
+
+.pusheen{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.eye{
+    position: fixed;
+    bottom: 54%;
+    left: 43.4%
+}
+
+.eye-left{
+    margin-right: 4%;
+}
+
+.eye-right{
+    margin-left: 4%;
+}
+
+.eye-inner {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #b5a79a;
+    border-radius: 50%;
+
+}
+
+.eye-inner::after{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    background: #4d290b;
+    border-radius: 50%;
+    content: ' ';
+}
